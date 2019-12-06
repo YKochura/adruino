@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   Serial.println(digitalRead(7));
-  if( digitalRead(7) == 1){
+  if(digitalRead(7) == 1){
     state =! state;
     digitalWrite(13, state);
     delay(100);
