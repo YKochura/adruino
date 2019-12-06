@@ -7,7 +7,6 @@ void setup() {
   pinMode(soundSensorPin, INPUT);
   state = false;
   Serial.begin(9600);
-
 }
 
 void loop() {
@@ -17,8 +16,4 @@ void loop() {
     digitalWrite(13, state);
     delay(100);
   }
-
-  
-  
-
 }
