@@ -3,8 +3,8 @@ boolean state;
 #define soundSensorPin 7    // sound sensor connected to 7D
 
 void setup() {
-  pinMode(ledPin OUTPUT);
-  pinMode(soundSensorPin, INPUT);
+  pinMode(ledPin OUTPUT);           // setting ledPin to OUTPUT
+  pinMode(soundSensorPin, INPUT);   // setting soundSensorPin to INPUT
   state = false;
   Serial.begin(9600);
 }
