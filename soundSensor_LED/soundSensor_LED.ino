@@ -1,6 +1,6 @@
-boolean state;
-#define ledPin 13
-#define soundSensorPin 7
+boolean state; 
+#define ledPin 13            // LED connected to 13D   
+#define soundSensorPin 7    // sound sensor connected to 7D
 
 void setup() {
   pinMode(ledPin OUTPUT);
